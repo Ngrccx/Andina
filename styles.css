@@ -1,0 +1,328 @@
+
+hr:not([size]) {
+    height: 1px;
+}
+
+
+body {
+    margin: 0px;
+    max-width: 100%;
+}
+
+.navbar {
+    background-color: #42dbe3;
+}
+
+.material-symbols-outlined {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.navbar-toggler {
+    border: 0px;
+    border-radius: 0px;
+}
+
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: 0 0 0 0;
+}
+
+.boton-nav {
+    background-color: transparent;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    z-index: 2;
+}
+
+.nav-link {
+    font-size: 1.5rem;
+    color: white;
+}
+
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+    background-image:
+    linear-gradient(to bottom, #42dbe3 10%, #42dbe300 20%, #42dbe300 80%, #3CC9D1 99%),
+    url("./images/hero1.jpg");
+    background-position: 70% 75%;
+    
+}
+
+
+
+    .hero__logo {
+        max-width: 8rem;
+    }
+
+
+/* Separador*/
+
+.separador {
+    height: 20vh;
+    width: 100%;
+    background-color: #3CC9D1;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+    .separador__iconos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+.cards {
+    justify-content: center;
+    align-items: center;
+ 
+
+}
+
+.card {
+    background-color:#3CC9D1;
+    border: 0px;
+}
+
+.cards__imagen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.img-fluid {
+    height: auto;
+    width: auto;
+}
+
+/* Articulo Expediciones */
+
+.titulo {
+        
+    text-align: center;
+    margin: 0;
+    font-size: 2rem;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 600;
+    
+}
+.subtitulo {
+    text-align: center; 
+    margin: 0;
+    font-size: 1.5rem;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 400
+}
+
+.articulo {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 15% 5rem 15%;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #82E3E9;
+
+}
+    .articulo__texto {
+        padding: 10% 0px;
+        text-align: center;
+    }
+
+    .icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: rgb(37, 143, 37);
+        font-size: 3rem;
+    }
+
+    .articulo__info {
+        text-align: center;
+    }
+    
+    .articulo__imagen {
+        max-width: 100%;
+    }
+
+/* Separador Parallax */
+
+.separadorParallax {
+    height: 30vh;
+    background: url(./images/corrida.jpg);
+    background-position: center 85%;
+    background-size: cover;
+}
+
+/* Separador Parallax */
+
+.variacionFondo {
+    background-color: #3CC9D1;
+}
+
+.articulo__titulo {
+        
+    text-align: center;
+    margin: 0;
+    font-size: 2rem;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 600;
+    
+}
+.articulo__subtitulo {
+    text-align: center; 
+    margin: 0;
+    font-size: 1.5rem;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 400;
+    padding: 3rem 0px
+}
+
+
+.lineaNegra {
+    background-color: black;
+    height: 0.3rem;
+    margin: 3rem 10% 3rem 10% ;
+    width: 80%;
+    border: 0px;
+}
+
+.footer__social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.lineaBlanca {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    height: 0.3rem;
+    width: 40%;
+    border: 0px;
+}
+
+.lineaCompleta {
+    height: 0.3rem;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10% 0px 10%;
+}
+
+.footer {
+    background-color: #31ADB5;
+}
+
+.andinaFooter {
+    width: 100%;
+    max-width: 15rem;
+}
+
+.footer__derecho {
+    display: flex;
+    justify-content: center;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.contacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer__end {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__item {
+    list-style-type: none;
+    color: white;
+}
+
+.footer__bajada {
+    color: white;
+}
+
+/* Carousel */
+
+.carousel {
+    overflow: hidden;
+    max-height: 80vh;
+    width: auto;
+}
+
+/* Whatsapp */
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
+
+
+.botonWhatsapp {
+    background-color: #aaa;
+    border: none;
+    border-radius: 24px;
+    box-shadow: 0 2px 0 #888, 1px 4px 2px rgba(0,0,0,0.2);
+    color: white;
+    display: block;
+    font-family: sans-serif;
+    font-size: .85em;
+    font-weight: 300;
+    outline: none;
+    padding: 1em 0;
+    position: relative;
+    overflow: hidden;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+    width: 70%;
+  }
+
+button[data-sharer="whatsapp"] {
+    background-color: #4DC247;
+    box-shadow: 0 2px 0 #30AF29, 1px 4px 2px rgba(0,0,0,0.2);
+    }
